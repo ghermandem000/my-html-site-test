@@ -1,10 +1,38 @@
+<!--@media (max-width: 700px) {
+	.content {
+	background: red;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-family: "Caveat", cursive;
+	font-size: 24px;
+	font-weight: 400;
+	font-style: normal;
+}
+}
+@media (max-width: 1000px) {
+	.content {
+		background: green;
+		width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-family: "Caveat", cursive;
+	font-size: 24px;
+	font-weight: 400;
+	font-style: normal;
+}
+}
+@media (min-width: 1001px) {
+	
+}-->
+	
+	
 .content {
 	background: cyan;
 	width: 80%;
 	margin: 0 auto;
 	margin-top: 50px;
 	font-family: "Caveat", cursive;
-	font-optical-sizing: auto;
 	font-size: 24px;
 	font-weight: 400;
 	font-style: normal;
