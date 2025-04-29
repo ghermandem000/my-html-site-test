@@ -1,4 +1,4 @@
-<!--@media (max-width: 700px) {
+@media (max-width: 700px) {
 	.content {
 	background: red;
 	width: 80%;
@@ -23,11 +23,7 @@
 }
 }
 @media (min-width: 1001px) {
-	
-}-->
-	
-	
-.content {
+	.content {
 	background: cyan;
 	width: 80%;
 	margin: 0 auto;
@@ -37,3 +33,17 @@
 	font-weight: 400;
 	font-style: normal;
 }
+
+}
+	
+	
+<!--.content {
+	background: cyan;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-family: "Caveat", cursive;
+	font-size: 24px;
+	font-weight: 400;
+	font-style: normal;
+}-->
