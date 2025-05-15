@@ -174,3 +174,14 @@ footer {
 .footertitle {
 	font-size: 36px;
 }
+.carousel-inner > .carousel-item > img {
+	width: auto;
+	height: 500px;
+	object-fit: contain;
+}
+.carousel-control-prev {
+	margin-left: 17%;
+}
+.carousel-control-next {
+	margin-right: 17%;
+}
