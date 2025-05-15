@@ -7,27 +7,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
  </head>
  <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <div class="icon-container">
-          <img src="i.webp">
-        </div>
-      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <li class="nav-item icon-container">
+            <a class="nav-link active" aria-current="page" href="index.html"><img src="home.png"></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item icon-container">
+            <a class="nav-link" href="login.html"><img src="loginicon.png"></a>
           </li>
-          <li class="nav-item dropdown">
+          <!--<li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown
             </a>
@@ -45,28 +41,22 @@
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        </form>-->
       </div>
     </div>
   </nav>
-  <form>
-   <div>
-    <label for="email">Почта:</label>
-	<input id="email" type="email" name="email">
+  <div class="pagenav">
+   <div class="icon-container">
+     <a href="index.html"><img src="home.png"></a>
    </div>
-   <div>
-    <label for="password">Пароль:</label>
-	<input id="password" type="password" name="password">
+   <div class="icon-container">
+     <a href="process.html"><img src="recycle.png"></a>
    </div>
-   <div>
-	<button type="submit">Войти</button>
+   <div class="icon-container">
+     <a href="conclusion.html"><img src="i.webp"></a>
    </div>
-  </form>
-  <div id="pagenav">
-   1
-   <a href="process.html">2</a>
-   <a href="conclusion.html">3</a>
   </div>
+  <div class="contentwrapper">
   <div class="content">
    <h1 id="title">Переработка бумаги в домашних условиях</h1>
    <div id="intro">
@@ -83,21 +73,78 @@
     <p>Потребление бумаги значительно увеличивается, и, следовательно, растёт количество отходов.</p>
     <p>Переработка старой бумаги помогает:</p>
     <ul>
-     <li>Снизить потребление древилины, так как на производства бумаги тратится значительная её часть.</li>
-	 <li>Сэкономить воду и энергию, которые используются в процессе производства новой бумаги.</li>
-	 <li>Уменьшить количество мусора, отправляемого на свалки.</li>
+     <li>Снизить потребление древесины, так как на производства бумаги тратится значительная её часть.</li>
+     <li>Сэкономить воду и энергию, которые используются в процессе производства новой бумаги.</li>
+     <li>Уменьшить количество мусора, отправляемого на свалки.</li>
     </ul>
    </div>
   </div>
-  <div class="icon-container">
-    <img src="i.webp">
   </div>
-  <div id="pagenav">
-    <div class="icon-container">
-      <a href="index.html"><img src="i.webp"></a>
+  <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="gallery/1.jpg" class="d-block w-100" alt="...">
     </div>
-   <a href="process.html">2</a>
-   <a href="conclusion.html">3</a>
+    <div class="carousel-item">
+      <img src="gallery/2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="gallery/3.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="gallery/4.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="gallery/5.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="gallery/6.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="gallery/7.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="gallery/8.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="gallery/9.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="gallery/10.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="gallery/11.jpg" class="d-block w-100" alt="...">
+    </div>
   </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  <div class="icon-container">
+    <img src="homeb.png">
+  </div>
+  <div class="pagenav">
+   <div class="icon-container">
+     <a href="index.html"><img src="home.png"></a>
+   </div>
+   <div class="icon-container">
+     <a href="process.html"><img src="recycle.png"></a>
+   </div>
+   <div class="icon-container">
+     <a href="conclusion.html"><img src="i.webp"></a>
+   </div>
+  </div>
+  <footer class="bg-light text-center py-3">
+    <h3 class="footertitle">Полезные ссылки:</h3>
+    <p><a href="https://www.youtube.com/watch?v=AAIvliCrO4Y">Бумага из мукулатуры</a></p>
+    <p><a href="https://www.youtube.com/watch?v=vmMYdLrUN_0">Экран для литья бумаги</a></p>
+    <p><a href="https://www.youtube.com/@Bumaga_kit">Канал по бумаге ручного литья</a></p>
+  </footer>
+</div>
  </body>
 </html>
